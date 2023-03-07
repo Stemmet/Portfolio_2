@@ -7,7 +7,7 @@
     <div class="blog-header blog-is-sticky">
       <div class="blog-article header-article">
         <div class="blog-big__title">Cameron</div>
-        <div class="blog-menu rounded small-title">Pinned Issue</div>
+        <div class="blog-menu rounded small-title">my personal portfolio</div>
       </div>
       <div class="blog-article page-number">
         NO. 01
@@ -21,16 +21,15 @@
         </div>
         <div class="blog-article">
           <img
-            src="https://images.unsplash.com/photo-1496629062893-b0f566065d44?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGJsYWNrJTIwYW5kJTIwd2hpdGV8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            src="https://i.postimg.cc/vHcX9m6K/IMG-0050.jpg"
             alt="">
-          <h2>Sharing The <span>Widespread</span> Acclaim About Motivation</h2>
-          <div class="blog-detail">
-            <span>By Richard Carnation</span>
-            <span>5 Min Read</span>
-          </div>
-          <p>Blonde received widespread acclaim, with critics praising Ocean's introspective lyrics and the album's
-            unconventional</p>
-          <a href="#">
+          <h2>Who <span>Am</span> I?</h2>
+          <p>
+			I am Cameron Stemmet a highly skilled and motivated aspiring full-stack web developer with 1 year of experience in the industry.
+			 My expertise lies in HTML, CSS, JavaScript, SEO and many more. 
+			 I am always eager to learn and stay up-to-date with the latest developments in the field.
+		  </p>
+          <a href="/about">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2"
               stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-down-right"
               viewBox="0 0 24 24">
@@ -98,43 +97,42 @@
     </div>
     <div class="blog-part right-blog">
       <marquee width="100%" direction="left">
-        <span>Now And Then You Miss It Sounds Make You Cry</span>
-        <span>Now In - MoMa Sharing Exhibition NOW</span>
-        <span>NYC Opens After Long Lockdown Check</span>
+        <span>THESE AND ALL PROJECTS WILL BE SHOWN IN DETAIL ON THE ABOUT PAGE</span>
+        <span>THESE AND ALL PROJECTS WILL BE SHOWN IN DETAIL ON THE ABOUT PAGE</span>
+		<span>THESE AND ALL PROJECTS WILL BE SHOWN IN DETAIL ON THE ABOUT PAGE</span>
       </marquee>
       <div class="blog-right-title-container">
         <div class="blog-right-title">
-          Featured Articles
+          Featured Projects
         </div>
-        <div class="blog-menu rounded">See All</div>
+        <a href="/about" class="blog-menu rounded">See All</a>
       </div>
       <div class="blog-right">
         <div class="blog-right-container">
           <div class="blog-title-date">
             <div class="blog-right-page">1</div>
-            <div class="date">12.06.2021</div>
+            <div class="date">Vue.js | Node.js | CSS3 | MySQL</div>
           </div>
-          <div class="blog-right-page-title">Blonde - Widespread Acclaim</div>
-          <div class="blog-right-page-subtitle">Blonde received widespread acclaim, with critics praising Ocean's
-            introspective lyrics and the album's</div>
+          <div class="blog-right-page-title">Capstone Project</div>
+          <div class="blog-right-page-subtitle">This was my first full stack project I completed alone,
+			 I used Vue.JS to build the front-end and Node.js for the API, I also made use of MySQL for the database.</div>
         </div>
         <div class="blog-right-container">
           <div class="blog-title-date">
             <div class="blog-right-page">2</div>
-            <div class="date">12.06.2021</div>
+            <div class="date">Vue.js | Node.js | CSS3 | MySQL</div>
           </div>
-          <div class="blog-right-page-title">Introspective Lyrics and Beats</div>
-          <div class="blog-right-page-subtitle">When we toured Scotland we stopped at several selft-sealing hpuses
-            because hotels would</div>
+          <div class="blog-right-page-title">Camping Tech</div>
+          <div class="blog-right-page-subtitle">I built the front-end of this project with Vue.js in a group of two.
+			 I was also responsible for the design of the site.</div>
         </div>
         <div class="blog-right-container">
           <div class="blog-title-date">
             <div class="blog-right-page">3</div>
-            <div class="date">12.06.2021</div>
+            <div class="date">Python</div>
           </div>
-          <div class="blog-right-page-title">The Language Of Gris: Comples Beauty Of Monochrome</div>
-          <div class="blog-right-page-subtitle">The interior concept was conceived of by Dutch archtitect Studio Anne
-            Holtrop who cleverly emulated</div>
+          <div class="blog-right-page-title">Pong</div>
+          <div class="blog-right-page-subtitle">I built a pong game as my first attempt at learning python, it came out fairly well</div>
         </div>
         <div class="blog-right-container">
           <div class="blog-title-date">
@@ -205,13 +203,12 @@
  .blog-article {
 	 padding: 0 20px;
 }
- .blog-article img {
-	 height: 260px;
-	 max-height: 22vh;
+.blog-article img {
+	 height: 40vh;
 	 width: 100%;
-	 object-fit: cover;
-	 filter: grayscale(1);
+	 object-fit: contain;
 }
+
  .page-number {
 	 display: flex;
 	 flex-direction: column;

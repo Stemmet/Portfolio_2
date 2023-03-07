@@ -10,7 +10,7 @@
 
 <style scoped>
  h1{
-    font-size: 100px;
+    font-size: 90px;
  }
 
  .contact{

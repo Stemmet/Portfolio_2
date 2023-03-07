@@ -35,7 +35,7 @@
 	 max-width: 100%;
 }
  body {
-	 background-color: #121418;
+	 background-color: #D2C9AA;
 	 display: flex;
 	 font-family: "Inter", sans-serif;
 	 justify-content: center;
@@ -55,12 +55,12 @@
 /* MAIN ARTICLE */
 
  .blog {
-	 background-color: #e9e6e4;
+	 background-color: #D2C9AA;
 	 max-width: 100vw;
 	 display: grid;
 	 height: 100vh;
 	 overflow: hidden;
-	 grid-template-columns: 15% 20% 35% 30%;
+	 grid-template-columns: 15% 20% 40% 25%;
 	 grid-template-rows: 100%;
 	 width: 100%;
 	 padding: 40px 4px;
